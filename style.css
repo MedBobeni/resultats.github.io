@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Segoe UI', Tahoma, sans-serif;
@@ -21,9 +24,16 @@ h1 {
   color: #2b6cb0;
 }
 
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 2px solid #cbd5e0;
+  border-radius: 10px;
+}
 
-
-button,input {
+button {
   width: 100%;
   padding: 12px;
   font-size: 16px;
