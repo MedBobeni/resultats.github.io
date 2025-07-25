@@ -15,7 +15,7 @@ function chercher() {
     const decisionClass = resultat.decision === "ناجح" ? "success" : "fail";
     box.innerHTML = `
       <h2>${resultat.nom}</h2>
-      <p><strong>المسابقة|دخول الإعدادية</strong> </p>
+      <p><strong>المسابقة|الباكلوريا </strong> </p>
       <p><strong>القرار:</strong> <span class="${decisionClass}">${resultat.decision}</span></p>
       <p><strong>المعدل:</strong> ${resultat.note}</p>
       <p><strong>المدرسة:</strong> ${resultat.ecole}</p>
