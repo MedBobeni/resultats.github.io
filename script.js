@@ -12,7 +12,7 @@ function chercher() {
   const box = document.getElementById("resultat");
 
   if (resultat) {
-    const decisionClass = resultat.decision === "ناجح" ? "success" : "fail";
+    const decisionClass = resultat.decision === "admin" ? "success" : "fail";
     box.innerHTML = `
       <h2>${resultat.nom}</h2>
       <p><strong>المسابقة|دخول الإعدادية</strong> </p>
